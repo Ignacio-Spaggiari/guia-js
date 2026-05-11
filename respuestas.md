@@ -6,10 +6,10 @@ Usaría let cuando necesito crear una variable cuyo valor puede cambiar durante 
 
 Ejemplo:
 
-```js
+
 let vida = 100;
 vida = 80;
-```
+
 
 ¿Cuándo usarías const?
 
@@ -17,9 +17,9 @@ Usaría const cuando el valor no debe cambiar.
 
 Ejemplo:
 
-```js
+
 const nombre = "Luna";
-```
+
 
 ¿Por qué actualmente se recomienda evitar var?
 
@@ -32,17 +32,17 @@ Actualmente se recomienda usar let y const porque son más modernos y fáciles d
 
 Primero se muestra:
 
-```js
+
 Local
-```
+
 
 ¿Qué se muestra después?
 
 Después se muestra:
 
-```js
+
 Global
-```
+
 
 ¿Por qué?
 
@@ -60,9 +60,9 @@ Un array se usa para guardar varios elementos relacionados en una lista.
 
 Ejemplo:
 
-```js
+
 const inventario = ["espada", "poción", "llave"];
-```
+
 
 Este array representa los objetos que tiene un jugador.
 
@@ -70,13 +70,13 @@ Un objeto se usa para guardar características o propiedades de una entidad.
 
 Ejemplo:
 
-```js
+
 const jugador = {
  nombre: "Luna",
  vida: 100,
  nivel: 3
 };
-```
+
 
 Este objeto representa la información de un jugador.
 
@@ -103,9 +103,8 @@ El evento click.
 
 Se muestra en consola el mensaje:
 
-```js
+
 El usuario hizo clic
-```
 
 ¿Dónde podríamos aplicar esto en una página web o videojuego?
 
