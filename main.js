@@ -77,3 +77,47 @@ switch (opcion) {
  default:
    console.log("Opción no válida");
 }
+
+for (let i = 3; i >= 1; i--) {
+ console.log(i);
+}
+
+console.log("¡Comienza!");
+
+let puntajeTotal = 0;
+
+for (let ronda = 1; ronda <= 5; ronda++) {
+ puntajeTotal += 10;
+}
+
+console.log(puntajeTotal);
+
+const inventario = ["espada", "poción", "llave", "escudo", "mapa"];
+
+console.log(inventario[0]);
+console.log(inventario[inventario.length - 1]);
+console.log(inventario.length);
+
+const inventario = ["espada", "poción", "llave", "escudo"];
+
+for (let i = 0; i < inventario.length; i++) {
+ console.log(inventario[i]);
+}
+
+let mochila = [];
+
+mochila.push("linterna");
+mochila.push("comida");
+mochila.push("mapa");
+
+mochila.pop();
+
+console.log(mochila);
+
+const inventario = ["espada", "llave", "escudo"];
+
+if (inventario.includes("llave")) {
+ console.log("La puerta se abre");
+} else {
+ console.log("Necesitás una llave");
+}
