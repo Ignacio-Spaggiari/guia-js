@@ -182,3 +182,51 @@ for (let i = 0; i < personajes.length; i++) {
    personajes[i].nivel
  );
 }
+
+const personajesFuertes = personajes.filter((personaje) => {
+ return personaje.nivel >= 3;
+});
+
+console.log(personajesFuertes);
+
+const nombres = personajes.map((personaje) => {
+ return personaje.nombre;
+});
+
+console.log(nombres);
+
+const personajeEncontrado = personajes.find((personaje) => {
+ return personaje.nombre === "Kai";
+});
+
+console.log(personajeEncontrado);
+
+const personajeEncontrado = personajes.find((personaje) => {
+ return personaje.nombre === "Kai";
+});
+
+console.log(personajeEncontrado);
+
+const vidaTotal = personajes.reduce((acumulador, personaje) => {
+ return acumulador + personaje.vida;
+}, 0);
+
+console.log(vidaTotal);
+
+const mensaje = document.getElementById("mensaje");
+
+mensaje.textContent = "Bienvenido a la guía de JavaScript";
+
+mensaje.style.color = "blue";
+
+const boton = document.getElementById("btn");
+const mensaje = document.getElementById("mensaje");
+
+let puntos = 0;
+
+boton.addEventListener("click", function () {
+ puntos += 10;
+
+ mensaje.textContent = "Puntos: " + puntos;
+});
+
